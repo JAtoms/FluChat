@@ -1,6 +1,6 @@
 # flu_chat
 
-A new Flutter application.
+A Flutter chatting App which demonstrate how to use Firebase messaging services in Flutter.
 
 ## Getting Started
 
