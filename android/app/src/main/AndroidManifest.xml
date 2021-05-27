@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dtechatoms.flu_chat">
    <application
-        android:label="flu_chat"
+        android:label="FluChat"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

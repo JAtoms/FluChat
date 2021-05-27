@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870565060943",
+    "project_id": "flashchat-adab3",
+    "storage_bucket": "flashchat-adab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870565060943:android:6fe2608b7282e0cd3ae53a",
+        "android_client_info": {
+          "package_name": "com.dtechatoms.flu_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870565060943-m8ds9qa4ge5sfdoq5f82pg6jhkjntehm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR-NfsY8bReNYHkk4-HXHMenAIhXK25Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870565060943-m8ds9qa4ge5sfdoq5f82pg6jhkjntehm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
