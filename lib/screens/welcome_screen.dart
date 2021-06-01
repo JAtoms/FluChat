@@ -1,6 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 import 'package:flutter/material.dart';
+import 'chat_screen.dart';
 import 'login_screen.dart';
 import 'registration_screen.dart';
 
@@ -26,6 +28,15 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     _animationController.forward();
     _animationController.addListener(() {
       setState(() {});
+    });
+
+    FirebaseAuth.instance.authStateChanges().listen((User user) {
+      if (user == null) {
+        print('User is currently signed out!');
+      } else {
+        print('User is signed in!');
+        Navigator.pushNamed(context, ChatScreen.id);
+      }
     });
   }
 
@@ -60,6 +71,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     TypewriterAnimatedText(
                       'Flash Chat',
                       textStyle: TextStyle(
+                        color: Colors.black,
                         fontSize: 45.0,
                         fontWeight: FontWeight.w900,
                       ),
