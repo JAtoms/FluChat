@@ -83,7 +83,6 @@ class _ChatScreenState extends State<ChatScreen> {
                       controller: _messageTextController,
                       onChanged: (value) {
                         messageText = value;
-                        //Do something with the user input.
                       },
                       decoration: kMessageTextFieldDecoration,
                     ),
